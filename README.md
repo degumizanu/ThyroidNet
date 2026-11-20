@@ -54,7 +54,4 @@ Place `best_model.pth` in the script's current working directory, or update `MOD
 
 ## Notes
 
-- Replace `train.py` and `test.py` in the examples if your script filenames are different.
-- Both scripts require access to ground-truth masks, including during testing.
-- An invalid dataset path or missing `images/` or `masks/` folder causes the scripts to exit with an error message.
-- Install the dependencies used by your project before running the scripts. The provided entry points do not specify a dependency list or training hyperparameters.
+- Replace 'best_model.pth' with the actual filename of the best model.
